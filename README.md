@@ -5,7 +5,10 @@ The official implementation of ACM Multimedia 2025 BNI Oral paper "Specify Priva
 > [!note]
 > The code and dataset will be publicly available before the opening of ACM Multimedia 2025 (October 27, 2025)
 
-
+<div align=center>
+<img src="assets/illustration.jpg" width="100%"/>
+Illustration with cases of our proposed Inference-Time Personalized Privacy Protection task.
+</div>
 
 ## News
 [2025-08-08] Repository created!
