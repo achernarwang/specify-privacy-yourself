@@ -1,9 +1,9 @@
 # Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Model
 
-The official implementation of ACM Multimedia 2025 BNI Oral paper "Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Model"
+The official implementation of ACM Multimedia 2025 BNI Oral paper "Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Model".
 
 > [!note]
-> The code and dataset will be publicly available before the opening of ACM Multimedia 2025 (October 27, 2025)
+> The code and data will be publicly available before the opening of ACM Multimedia 2025 (October 27, 2025)
 
 <div align=center>
 <img src="assets/illustration.jpg" width="100%"/>
