@@ -176,9 +176,9 @@ In our paper, we evaluated the following LVLMs with SPY-Bench:
 
 | Model Name | Model Type | Source |
 |------------|------------|--------|
-| LLaVA 1.5 13B | Open-source | [🤗 HuggingFace](https://huggingface.co/liuhaotian/llava-v1.5-13b) |
+| LLaVA 1.5 13B | Open-source | [🤗 HuggingFace](https://huggingface.co/llava-hf/llava-1.5-13b-hf) |
 | LLaVA NeXT Vicuna 13B | Open-source | [🤗 HuggingFace](https://huggingface.co/llava-hf/llava-v1.6-vicuna-13b-hf) |
-| LLaVA OneVision Qwen2 7B | Open-source | [🤗 HuggingFace](https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov) |
+| LLaVA OneVision Qwen2 7B | Open-source | [🤗 HuggingFace](https://huggingface.co/llava-hf/llava-onevision-qwen2-7b-ov-hf) |
 | Llama 3.2 11B Vision Instruct | Open-source | [🤗 HuggingFace](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct) |
 | Pixtral 12B | Open-source | [🤗 HuggingFace](https://huggingface.co/mistralai/Pixtral-12B-2409) |
 | GLM 4V 9B | Open-source | [🤗 HuggingFace](https://huggingface.co/THUDM/glm-4v-9b) |
