@@ -1,0 +1,31 @@
+accelerate launch --config_file configs/deepspeed_zero2.yaml --num_processes 4 \
+   train_our.py \
+   --model_name_or_path /path/to/Qwen2-VL-7B-Instruct \
+   --train_data_path data/train_data.json \
+   --eval_data_path data/eval_data.json \
+   --label_path data/label2text.json \
+   --image_folder data \
+   --shuffle True \
+   --add_distractors True \
+   --min_pixels 200704 \
+   --max_pixels 1003520 \
+   --num_train_epochs 3.0 \
+   --save_strategy "epoch" \
+   --logging_steps 10 \
+   --eval_steps 100 \
+   --per_device_train_batch_size 8 \
+   --per_device_eval_batch_size 8 \
+   --gradient_accumulation_steps 1 \
+   --gradient_checkpointing \
+   --learning_rate 6e-6 \
+   --weight_decay 0.05 \
+   --warmup_ratio 0.1 \
+   --lr_scheduler_type "cosine" \
+   --bf16 \
+   --tf32 True \
+   --torch_dtype bfloat16 \
+   --use_liger \
+   --attn_implementation flash_attention_2 \
+   --output_dir runs/q2_sft_b32_l6e-6_e3_wd005_wr01 \
+   --save_only_model True \
+   --report_to tensorboard
