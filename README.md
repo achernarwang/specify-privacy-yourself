@@ -1,6 +1,6 @@
 # Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Model
 
-### [Paper PDF](./assets/paper.pdf)
+### [Paper PDF](./assets/paper.pdf) | [ACM DL](https://dl.acm.org/doi/10.1145/3746027.3758156)
 
 The official implementation of ACM Multimedia 2025 BNI Oral paper "Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Model".
 
