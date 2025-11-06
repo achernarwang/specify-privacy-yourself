@@ -10,11 +10,11 @@ Illustration with cases of our proposed Inference-Time Personalized Privacy Prot
 </div>
 
 ## News
-[2025-10-21] We have released the code and data for both evaluation and training!🎉 A preprint copy of our paper is also available [here](./assets/paper.pdf).
+[2025-10-21] 🎉 We have released the code and data for both evaluation and training! A preprint copy of our paper is also available [here](./assets/paper.pdf).
 
-[2025-08-08] This repository has been created.
+[2025-08-08] 🚀 This repository has been created.
 
-[2025-08-01] Our paper has been accepted by ACM Multimedia 2025 as a BNI Oral presentation!🎉 
+[2025-08-01] 🎉 Our paper has been accepted by ACM Multimedia 2025 as a BNI Oral presentation! 
 
 ## Abstract
 Large Vision-Language Models (LVLMs) have demonstrated remarkable capabilities but raise significant _privacy_ concerns due to their abilities to infer sensitive personal information from images with high precision. While current LVLMs are relatively well aligned to protect universal privacy, _e.g._, credit card data, we argue that privacy is inherently personalized and context-dependent. This work pivots towards a novel task: _can LVLMs achieve Inference-Time Personalized Privacy Protection (**ITP$`^3`$**), allowing users to dynamically specify privacy boundaries through language specifications?_ To this end, we present **SPY-Bench**, the first systematic assessment of ITP$`^3`$ ability, which comprises (1) 32,700 unique samples with image-question pairs and personalized privacy instructions across 67 categories and 24 real-world scenarios, and (2) novel metrics grounded in user specifications and context awareness. Benchmarking the ITP$`^3`$ ability of 21 SOTA LVLMs, we reveal that: (i) most models, even the top-performing o4-mini, perform poorly, with only ~24% compliance accuracy; (ii) they show quite limited contextual privacy understanding capability. Therefore, we implemented initial ITP$`^3`$ alignment methods, including a novel Noise Contrastive Alignment variant which achieves 96.88% accuracy while maintaining reasonable general performance. These results mark an initial step towards the ethical deployment of more controllable LVLMs.
@@ -169,6 +169,20 @@ You could refer to the `train/scripts/` for more example commands.
 
 ## Acknowledgements
 We gratefully acknowledge the developers and contributors of [VISPR](https://arxiv.org/abs/1703.10660), [🤗Huggingface Libraries](https://huggingface.co/docs), [vLLM Project](https://github.com/vllm-project/vllm), and [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), upon which our work is built. We also extend our gratitude to the authors of all evaluated models (see the list below) for sharing the model weights or service endpoints with the research community.
+
+## Citation
+
+If you feel this repo is helpful to your research, please consider citing our work:
+
+```
+@inproceedings{wang2025specify,
+  title={Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Models},
+  author={Wang, Xingqi and Yi, Xiaoyuan and Xie, Xing and Jia, Jia},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={12304--12313},
+  year={2025}
+}
+```
 
 ## Additional Information
 
